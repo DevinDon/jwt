@@ -1,6 +1,6 @@
 # JWT
 
-JSON Web Token, on [npmjs.com](https://www.npmjs.com/package/@iinfinity/jwt).
+JSON Web Token, see [NPM](https://www.npmjs.com/package/@iinfinity/jwt) & [GitHub](https://github.com/DevinDon/jwt).
 
 # Change Log
 
@@ -13,6 +13,12 @@ See [CHANGELOG](https://github.com/DevinDon/jwt/blob/master/docs/CHANGELOG.md) f
 # Usage
 
 See [simple demo](https://github.com/DevinDon/jwt/blob/master/src/demo/index.ts) for more detail.
+
+## Install
+
+```shell
+npm i --save @iinfinity/jwt
+```
 
 ## Create
 
