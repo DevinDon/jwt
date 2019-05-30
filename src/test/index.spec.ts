@@ -1,14 +1,10 @@
-import { asyncHello, hello } from '../main';
+import { JWT } from '../main';
 
-describe('Hello, world!', () => {
+describe('Index', () => {
 
-  it('should say `Hello, world!`', done => {
-    expect(hello('world')).toEqual('Hello, world!');
-    done();
-  });
-
-  it('should async say `Hello, world!`', async done => {
-    expect(await asyncHello('world')).toEqual('Hello, world!');
+  it('should export class JWT`', done => {
+    const jwt = new JWT();
+    expect(jwt instanceof JWT).toBeTruthy();
     done();
   });
 
